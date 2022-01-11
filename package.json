@@ -4,7 +4,7 @@
   "description": "Content Management System",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Anmol Arora",
   "license": "ISC",
