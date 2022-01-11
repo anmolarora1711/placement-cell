@@ -6,7 +6,21 @@ A jobs placement management system used by employees which are providing jobs to
 
 https://git.heroku.com/placement-cell-system.git
 
-![Screenshot]()
+* Home Screen
+
+![home](https://user-images.githubusercontent.com/70250104/148900952-704cf49a-9658-4f00-a1c8-2b07bd4e0af9.PNG)
+
+* Register Screen
+
+![register](https://user-images.githubusercontent.com/70250104/148901273-bd103934-60ab-4485-8079-212fede9431b.PNG)
+
+* Login Screen
+
+![login](https://user-images.githubusercontent.com/70250104/148901255-4eaa6b4c-397a-4397-88ea-72bc99603cb8.PNG)
+
+* Dashboard Screen
+
+![dashboard](https://user-images.githubusercontent.com/70250104/148901295-3c9bd403-9de6-460c-aaf8-de771df92f1d.PNG)
 
 ## Requirements
 
