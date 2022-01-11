@@ -1,0 +1,13 @@
+.square-box{
+    width: 90vw;
+    height: 90vh;
+}
+
+.heading{
+    color: whitesmoke
+}
+
+.desc{
+    font-size: 30px;
+    color: white;
+}

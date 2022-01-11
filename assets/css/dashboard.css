@@ -1,0 +1,11 @@
+.student-name{
+    font-weight: 900;
+}
+
+.company-name{
+    font-weight: 900;
+}
+
+.company-name a{
+    text-decoration: none;
+}

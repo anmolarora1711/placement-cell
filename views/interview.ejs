@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="/css/interview.css">
+
+<div class="row">
+    <div class="col-4 offset-sm-4">
+        <%- include('./partials/messages'); %>
+    </div>
+</div>
+
+<div class="container mt-3">
+    <div class="row">
+        <div class="interview-container col-md-6 m-auto">
+            <form action="/interview/create" method="POST">
+                <fieldset>
+                    <legend>Add Interview</legend>
+                    <small>*All fields are compulsory</small>
+                
+                    <!-- Interview Details  -->
+                    <div class="form-group">
+                        <label class="col-form-label col-form-label-sm mt-4" for="studentName">Student Name</label>
+                        <input class="form-control form-control-sm" type="text" name="studentName" id="studentName" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label col-form-label-sm mt-4" for="company">Company Name</label>
+                        <input class="form-control form-control-sm" type="text" name="company" id="company" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label col-form-label-sm mt-4" for="date">Date</label>
+                        <input class="form-control form-control-sm" type="text" name="date" id="date" placeholder="10-01-2022" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label col-form-label-sm mt-4" for="profile">Profile</label>
+                        <input class="form-control form-control-sm" type="text" name="profile" id="profile" placeholder="Software Engineer" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="status" class="form-label mt-4">Status</label>
+                        <select class="form-select" name="status" id="status" required>
+                            <option>ON HOLD</option> 
+                            <option>PASS</option>
+                            <option>FAIL</option>
+                            <option>DIDN'T ATTEMPT</option>
+                        </select>
+                        </div>
+            
+                    <button type="submit" class="btn btn-primary my-3">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>

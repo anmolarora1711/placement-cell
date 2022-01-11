@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="/css/student.css">
+
+<div class="row">
+    <div class="col-4 offset-sm-4">
+        <%- include('./partials/messages'); %>
+    </div>
+</div>
+
+<div class="container mt-3">
+    <div class="row">
+        <div class="student-container col-md-6 m-auto">
+            <form action="/student/create" method="POST">
+                <fieldset>
+                    <legend class="text-center mb-5">Create New Student</legend>
+                    <small>*All fields are compulsory</small>
+                    <br>
+                    <br>
+        
+                    <div class="form-group">
+                        <label for="name" class="form-label mt-4">Name</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label mt-4">Email</label>
+                        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="college" class="form-label mt-4">College</label>
+                        <input type="text" class="form-control" name="college" id="college" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="batch" class="form-label mt-4">Batch</label>
+                        <input type="text" class="form-control" name="batch" id="batch" required>
+                        <small class="form-text text-muted">Format: Nov-2020</small>
+                    </div>
+                    <div class="form-group">
+                    <label for="status" class="form-label mt-4">Placed</label>
+                    <select class="form-select" name="status" id="status" required>
+                        <option>No</option> 
+                        <option>Yes</option>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label col-form-label-sm mt-4" for="dsa">DSA final Score</label>
+                        <input class="form-control form-control-sm" type="text"  name="dsa" id="dsa" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label col-form-label-sm mt-4" for="web">Web Dev final Score</label>
+                        <input class="form-control form-control-sm" type="text" name="web" id="web" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label col-form-label-sm mt-4" for="react">React final Score</label>
+                        <input class="form-control form-control-sm" type="text" name="react" id="react" required>
+                    </div>
+        
+                    <button type="submit" class="btn btn-primary my-3">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>

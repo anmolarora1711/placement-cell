@@ -1,0 +1,26 @@
+{
+  "name": "placement-cell",
+  "version": "1.0.0",
+  "description": "Content Management System",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Anmol Arora",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.1.5",
+    "morgan": "^1.10.0",
+    "objects-to-csv": "^1.3.6",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
+}
