@@ -4,7 +4,7 @@ A jobs placement management system used by employees which are providing jobs to
 
 ## Web App Link
 
-https://git.heroku.com/placement-cell-system.git
+https://placement-cell-system.herokuapp.com/
 
 * Home Screen
 
