@@ -1,6 +1,6 @@
 # placement-cell
 
-A job placement management system used by employees who are providing jobs to their students by assigning interview to them.
+A job placement management system which is used by employees who are providing jobs to their students by assigning interview to them.
 
 ## Web App Link
 
